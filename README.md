@@ -1,85 +1,102 @@
 # Awesome Amplifier [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Amplifier bundles, behaviors, agents, tools, and resources.
+> A curated showcase of awesome Amplifier applications, bundles, and community resources.
 
 [Amplifier](https://github.com/microsoft/amplifier) is a modular AI agent framework built on the Linux kernel philosophy: a tiny, stable kernel with all features living at the edges as replaceable modules.
 
+**📦 Looking for the complete catalog?** See the official [Component Catalog (MODULES.md)](https://github.com/microsoft/amplifier/blob/main/docs/MODULES.md) for all official modules, bundles, and technical specifications.
+
 ## Contents
 
-- [Official Bundles](#official-bundles)
+- [Featured Community Applications](#featured-community-applications)
 - [Community Bundles](#community-bundles)
-- [Behaviors & Recipes](#behaviors--recipes)
-- [Agents](#agents)
-- [Tools & Integrations](#tools--integrations)
-- [Development Tools](#development-tools)
+- [Official Bundles](#official-bundles)
 - [Learning Resources](#learning-resources)
 - [Example Projects](#example-projects)
 - [Contributing](#contributing)
 
-## Official Bundles
+## Featured Community Applications
 
-Maintained by the Amplifier team under the `microsoft` organization.
+Real applications built with Amplifier by the community.
 
-- [amplifier-foundation](https://github.com/microsoft/amplifier-foundation) - Core foundation bundle with bundle primitives, reference bundles/behaviors, and shared utilities.
+### Media & Content Creation
+
+- [app-transcribe](https://github.com/robotdad/amplifier-app-transcribe) - Transform YouTube videos and audio files into searchable transcripts with AI-powered insights
+- [app-blog-creator](https://github.com/robotdad/amplifier-app-blog-creator) - AI-powered blog creation with style-aware generation and rich markdown editor
+- [app-voice](https://github.com/robotdad/amplifier-app-voice) - Desktop voice assistant with native speech-to-speech via OpenAI Realtime API
+
+### Development Tools
+
+- [app-tool-generator](https://github.com/samueljklee/amplifier-app-tool-generator) - AI-powered tool generator for creating custom Amplifier tools
+- [amplifier-playground](https://github.com/samueljklee/amplifier-playground) - Interactive environment for building, configuring, and testing Amplifier AI agent sessions
+- [app-session-analyzer](https://github.com/DavidKoleczek/amplifier-app-session-analyzer) - Analyze Amplifier session logs and generate interesting metrics about your usage
+- [amplifier-lakehouse](https://github.com/payneio/lakehouse) - Amplifier on top of your data (daemon and webapp)
+
+### Benchmarking & Evaluation
+
+- [app-benchmarks](https://github.com/DavidKoleczek/amplifier-app-benchmarks) - Benchmarking and evaluating Amplifier performance
+
+> 🚀 **Built an app?** Submit a PR to showcase it here!
 
 ## Community Bundles
 
-Community-maintained bundles that extend Amplifier's capabilities.
+Extension bundles built by the community.
 
-### Git & Version Control
+- [expert-cookbook](https://github.com/DavidKoleczek/amplifier-expert-cookbook) - Achieve the State of the Art with Microsoft Amplifier
+- [memory](https://github.com/michaeljabbour/amplifier-bundle-memory) - Persistent memory system with automatic capture and progressive disclosure
 
-- [amplifier-git-workflow](https://github.com/kenotron-ms/amplifier-git-workflow) - Automated git workflow for PR submission and monitoring.
+> 🎯 **Created a bundle?** Submit a PR to share it here!
 
-> 🎯 **Want to add your bundle?** See [Contributing](#contributing) below.
+## Official Bundles
 
-## Agents
+Key official bundles maintained by the Amplifier team. See [MODULES.md](https://github.com/microsoft/amplifier/blob/main/docs/MODULES.md) for the complete catalog.
 
-Specialized AI agents for specific tasks.
+### Core & Foundation
 
-> 💡 Agents are defined in markdown files with YAML frontmatter. They're bundles focused on a specific persona or task.
->
-> 🤖 **Built a specialized agent?** Submit a PR to add it here!
+- [foundation](https://github.com/microsoft/amplifier-foundation) - Foundational library for bundles, module resolution, and shared utilities
 
-## Tools & Integrations
+### Workflow & Orchestration
 
-CLI tools, utilities, and third-party integrations.
+- [recipes](https://github.com/microsoft/amplifier-bundle-recipes) - Multi-step AI agent orchestration with approval gates and resumability
+- [issues](https://github.com/microsoft/amplifier-bundle-issues) - Persistent issue tracking with dependency management and session linking
 
-> 🔌 **Have an integration?** Submit a PR to add it here!
+### Development Intelligence
 
-## Development Tools
+- [python-dev](https://github.com/microsoft/amplifier-bundle-python-dev) - Comprehensive Python development tools (ruff, pyright, LSP)
+- [ts-dev](https://github.com/microsoft/amplifier-bundle-ts-dev) - TypeScript/JavaScript development tools
+- [lsp-python](https://github.com/microsoft/amplifier-bundle-lsp-python) - Python code intelligence via Pyright
+- [lsp-typescript](https://github.com/microsoft/amplifier-bundle-lsp-typescript) - TypeScript/JavaScript code intelligence
+- [design-intelligence](https://github.com/microsoft/amplifier-bundle-design-intelligence) - 7 specialized design agents with design philosophy framework
 
-Tools to help you build and debug Amplifier bundles and modules.
+### Testing & Utilities
 
-> 🔧 **Looking for dev tools?** This section will grow as the community builds testing frameworks, linters, and debugging utilities.
-
-- Your dev tool here!
+- [shadow](https://github.com/microsoft/amplifier-bundle-shadow) - OS-level sandboxed environments for safe testing
+- [notify](https://github.com/microsoft/amplifier-bundle-notify) - Desktop and push notifications for assistant turns
 
 ## Learning Resources
 
 ### Official Documentation
 
-- [Amplifier Repository](https://github.com/microsoft/amplifier) - Main repository with getting started guides and ecosystem overview.
-- [Amplifier Core](https://github.com/microsoft/amplifier-core) - Kernel documentation and module contracts.
-- [Foundation Docs](https://github.com/microsoft/amplifier-foundation) - Bundle authoring guide and examples.
+- [Component Catalog (MODULES.md)](https://github.com/microsoft/amplifier/blob/main/docs/MODULES.md) - **Complete catalog** of all official modules, bundles, providers, tools, hooks, and orchestrators
+- [Amplifier Repository](https://github.com/microsoft/amplifier) - Main repository with getting started guides and ecosystem overview
+- [Developer Guide](https://github.com/microsoft/amplifier/blob/main/docs/DEVELOPER.md) - Build your own modules and extensions
+- [Amplifier Core](https://github.com/microsoft/amplifier-core) - Kernel documentation and module contracts
+- [Foundation Docs](https://github.com/microsoft/amplifier-foundation) - Bundle authoring guide and examples
 
 ### Tutorials & Guides
 
-> 📚 **Have a tutorial?** Submit a PR to add it here!
-
-- Your tutorial here!
+> 📚 **Written a tutorial?** Submit a PR to add it here!
 
 ### Community & Discussion
 
-- [GitHub Discussions](https://github.com/microsoft/amplifier/discussions) - Ask questions and share ideas.
-- [Issues](https://github.com/microsoft/amplifier/issues) - Report bugs and request features.
+- [GitHub Discussions](https://github.com/microsoft/amplifier/discussions) - Ask questions and share ideas
+- [Issues](https://github.com/microsoft/amplifier/issues) - Report bugs and request features
 
 ## Example Projects
 
-Real-world projects and showcases built with Amplifier.
+See [Featured Community Applications](#featured-community-applications) above for real applications built with Amplifier.
 
-> 🚀 **Built something cool?** We'd love to see it here!
-
-- Your example project here!
+**Want to showcase your project?** Add it to the Community Applications section!
 
 ## Contributing
 
