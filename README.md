@@ -44,10 +44,6 @@ Specialized AI agents for specific tasks.
 
 CLI tools, utilities, and third-party integrations.
 
-### Setup & Installation
-
-- [amplifier-setup](https://github.com/kenotron-ms/amplifier-setup) - One-command setup wrapper for quick Amplifier installation.
-
 > 🔌 **Have an integration?** Submit a PR to add it here!
 
 ## Development Tools
