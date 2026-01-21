@@ -21,35 +21,24 @@
 Maintained by the Amplifier team under the `microsoft` organization.
 
 - [amplifier-foundation](https://github.com/microsoft/amplifier-foundation) - Core foundation bundle with bundle primitives, reference bundles/behaviors, and shared utilities.
-- [amplifier-bundle-m365](https://github.com/microsoft/amplifier-bundle-m365) - Microsoft 365 integrations (Teams, SharePoint, Planner).
 
 ## Community Bundles
 
 Community-maintained bundles that extend Amplifier's capabilities.
 
-> 🎯 **Want to add your bundle?** See [Contributing](#contributing) below.
-
-- Your bundle here!
-
-## Behaviors & Recipes
-
-Reusable behaviors and multi-step recipes that can be included in your bundles.
-
 ### Git & Version Control
 
-- [amplifier-git-workflow](https://github.com/kenotron-ms/amplifier-git-workflow) - Automated PR workflows and git operations.
+- [amplifier-git-workflow](https://github.com/kenotron-ms/amplifier-git-workflow) - Automated git workflow for PR submission and monitoring.
 
-### Event-Driven Workflows
-
-- [amplifier-hook-event-triggers](https://github.com/microsoft/amplifier-hook-event-triggers) - Event-driven agent orchestration.
+> 🎯 **Want to add your bundle?** See [Contributing](#contributing) below.
 
 ## Agents
 
 Specialized AI agents for specific tasks.
 
 > 💡 Agents are defined in markdown files with YAML frontmatter. They're bundles focused on a specific persona or task.
-
-- Your specialized agent here!
+>
+> 🤖 **Built a specialized agent?** Submit a PR to add it here!
 
 ## Tools & Integrations
 
@@ -59,13 +48,7 @@ CLI tools, utilities, and third-party integrations.
 
 - [amplifier-setup](https://github.com/kenotron-ms/amplifier-setup) - One-command setup wrapper for quick Amplifier installation.
 
-### Desktop Applications
-
-- [amplifier-desktop](https://github.com/microsoft/amplifier-desktop) - Desktop application interface for Amplifier.
-
-### Microsoft 365
-
-- [amplifier-bundle-m365](https://github.com/microsoft/amplifier-bundle-m365) - Teams, SharePoint, and Planner integrations.
+> 🔌 **Have an integration?** Submit a PR to add it here!
 
 ## Development Tools
 
